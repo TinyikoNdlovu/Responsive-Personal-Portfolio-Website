@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Rowdies:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME cdnjs LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Remixicon cdn Link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- BOX ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- Navbar -->
+        <header>
+            <a href="#" class="logo">Portfolio <span>P.</span></a>
+
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./skills.html">Skills</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </header>
+
+        <!-- End of Navbar -->
+
+        <!-- Landing/Home -->
+        <section class="landing">
+            <div class="logo-dev">
+                <span>Software</span>
+                <span>Dev</span>
+            </div>
+            <div class="banner">
+                <div class="developer-info">
+                    <h3 class="greeting">Hello, <span>my name is</span></h3>
+                    <h1 class="name"><span>Tinyiko </span>Ndlovu</h1>
+                    <h3 class="prof">I am a <span>Junior Software Developer</span></h3>
+                    <p class="about">A graduate of a National Diploma in Information Technology (Software Development)
+                    </p>
+                    <div class="social-media">
+                        <a href="linkedin.com/in/tinyiko-ndlovu-2097aa20"><i class='bx bxl-linkedin-square'></i></a>
+                    </div>
+                    <div class="more">
+                        <button type="button" class="btn more-btn"><a href="about.html">More about me</a></button>
+                    </div>
+                </div>
+                <div class="developer-img">
+                    <div class="dev-img-wrapper">
+                        <img src="./images/profile pic.png">
+                    </div>
+                    <div class="dev-experience dev-work">
+                        <span>3</span>
+                        <span>years of experience</span>
+                    </div>
+                    <div class="dev-projects dev-work">
+                        <span>4+</span>
+                        <span>completed projects</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Landing/Home -->
+
+        <!-- About me -->
+        <section class="aboutme">
+            <h1 class="section-heading">About Me</h1>
+            <h3 class="sub-heading">My <span>Introduction </span></h3>
+            <div class="about-cards">
+                <div class="about-card">
+                    <div class="about-img">
+                        <img src="./images/profile pic.png" alt="About image">
+                    </div>
+                </div>
+                <div class="about-card">
+                    <div class="about-desc">
+                        <p>Aspiring Software Developer Trainee with background
+                            in Web and Mobile Development, having 3 years of
+                            experience in design and layout of websites including for
+                            responsive design and mobile display. I can code and create websites,
+                            web applications and interfaces using standard HTML/CSS practices.
+                            Can design and develop mobile applications for Andoid platform
+                            and build interfaces to improve UX. Able to create and maintain
+                            mobile applications and Keep abreast of the latest technology
+                            for web and mobile applications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of About me -->
+
+        <!-- Professional Skills -->
+        <section class="skills">
+            <h1 class="section-heading">Professional Skills</h1>
+            <h3 class="sub-heading">My <span>Skills</span></h3>
+
+            <div class="skills__container containergrid section__border">
+                <!-- Professional Skills 1 -->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Frontend Developer
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/html-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">HTML5</h3>
+                            <span class="skills__subtitle">Intermadiate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/css-3.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">CSS3</h3>
+                            <span class="skills__subtitle">Intermadiate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/bootstrap-5-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Bootstrap</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/material-ui-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Materialui</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/figma-5.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Figma</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/canva-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Canva</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/react-2.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">React</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/django.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Django</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/flutter.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Flutter</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/git-icon.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Git</h3>
+                            <span class="skills__subtitle">Intermadiate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Skills 2 -->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-code-s-slash-line"></i> Backend Developer
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/logo-javascript.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Javascript</h3>
+                            <span class="skills__subtitle">Intermadiate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/java-4.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Java</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/python-5.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Python</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/dart.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Dart</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/react-native-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">React Native</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/firebase-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Firebase</h3>
+                            <span class="skills__subtitle">Intermadiate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/aws-2.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">AWS</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/postgresql.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">PostgreSQL</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/mysql-6.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Mysql</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/sqlite.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Sqlite</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="./images/azure-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Azure</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- End of Professional Skills -->
+        
+        <!-- Projects -->
+        <section class="projects">
+            <h1 class="section-heading">Portfolio</h1>
+        <h3 class="sub-heading">My <span>Projects</span></h3>
+        <div class="projects-cards">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./images/budget app.png">
+                </div>
+                <div class="techs">
+                    <span>HTML,</span>
+                    <span>CSS,</span>
+                    <span>JavaScript</span>
+                </div>
+                <h3 class="project-name">Budget App</h3>
+                <p class="project-desc">A website that allows users to add items they 
+                    need to buy in a month based on their salary and extra cash that 
+                    they make during a month and calculate to see how much they are 
+                    spending.</p>
+                <a href="https://github.com/TinyikoNdlovu/Budget-App.git">Code<i class='bx bxl-github'></i></a>
+                <a href="https://budget-app-e4edd.web.app/">Live Demo</a>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./images/employee portal.png">
+                </div>
+                <div class="techs">
+                    <span>React</span>
+                    <span>HTML,</span>
+                    <span>CSS,</span>
+                    <span>JavaScript</span>
+                </div>
+                <h3 class="project-name">Employee-Portal</h3>
+                <p class="project-desc">This web app is about adding,deleting and 
+                    editing information about employees working in a company.</p>
+                <a href="https://github.com/TinyikoNdlovu/Budget-App.git">Code<i class='bx bxl-github'></i></a>
+                <a href="https://budget-app-e4edd.web.app/">Live Demo</a>
+                <!-- <button type="button" class="project-btn">See Project <i
+                        class="fa-sharp fa-solid fa-arrow-right"></i></button> -->
+            </div>
+        </div>
+        </section>
+    <!-- End of Projects -->
+
+    <!-- Contact -->
+    <section class="contact">
+        <h1 class="section-heading">Contact</h1>
+        <h3 class="sub-heading">Let's <span>Have Some Talk</span></h3>
+        <div class="contact-content">
+            <div class="contact-left">
+                <div class="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="contact-info">
+                        <span>Address</span>
+                        <span>Johannesburg, RSA</span>
+                    </div>
+                </div>
+                <div class="freelance">
+                    <i class="fa-regular fa-user"></i>
+                    <div class="contact-info">
+                        <span>Web and Mobile Developer</span>
+                        <span>Available For Work</span>
+                    </div>
+                </div>
+                <div class="email">
+                    <i class="fa-regular fa-envelope"></i>
+                    <div class="contact-info">
+                        <span>Email</span>
+                        <span>jesicaalice06@gmail.com</span>
+                    </div>
+                </div>
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="contact-info">
+                        <span>Phone</span>
+                        <span>+27 79 664 4380</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form method="post" action="https://formspree.io/f/xqkognld" class="row" style="margin-top: 30px;"
+                    name="contactForm" onsubmit="contactvalidation()">
+                    <div class="input-groups">
+                        <div class="input-group">
+                            <label for="name">Your Full Name <i class="fa-solid fa-asterisk"></i></label>
+                            <input type="text" id="fullName" name="fullName" placeholder="Your FullName...">
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Your Email Address <i class="fa-solid fa-asterisk"></i></label>
+                            <input type="email" id="email" name="email" placeholder="Your Email Address...">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="subject">Your Subject <i class="fa-solid fa-asterisk"></i></label>
+                        <input type="text" id="subject" name="subject" placeholder="Your Subject...">
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Your Message <i class="fa-solid fa-asterisk"></i></label>
+                        <textarea id="message" name="message" rows="5"
+                            placeholder="Type Your Message Here..."></textarea>
+                    </div>
+                    <button type="submit" id="messagebtn" class="contact-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End of Contact -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="icons">
+            <i class='bx bxl-linkedin-square'></i>
+            <i class='bx bxl-google'></i>
+            <i class='bx bxl-twitter'></i>
+        </div>
+        <div class="copyright">
+            <p>&copy;Web/Mobile<span>Dev</span>All Rights Reserved. 2023</p>
+        </div>
+        <div class="author">
+            <p>Made by <span>Dev and Geek</span></p>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+    </div>
+    <!-- End of Container -->
+
+    <!-- Link To JS -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
+
